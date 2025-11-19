@@ -3108,7 +3108,8 @@
       9
     ],
     "notes": [
-      "The integrated daemon config is located at `/root/.config/daemon/config.json`"
+      "The integrated daemon config is located at `/root/.config/daemon/config.json`",
+      "When using a reverse proxy, edit `/opt/netvisor/ui/build/_app/env.js`: add 443 to `PUBLIC_SERVER_PORT` and remove 'default' from `PUBLIC_SERVER_HOSTNAME`."
     ],
     "type": "ct"
   },
@@ -3766,7 +3767,7 @@
       6
     ],
     "notes": [
-      "Type `cat ~/.Passbolt.creds` to see MariaDB database credentials. You will need those to setup Passbolt.",
+      "Type `cat ~/passbolt.creds` to see MariaDB database credentials. You will need those to setup Passbolt.",
       "The application uses self-signed certificates. You can also use Let's Encrypt to get a valid certificate for your domain. Please read the documentation for more information."
     ],
     "type": "ct"
