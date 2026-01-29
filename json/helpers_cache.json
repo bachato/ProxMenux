@@ -5932,7 +5932,8 @@
       8
     ],
     "notes": [
-      "Show Login Credentials, type `cat ~/valkey.creds` in the LXC console"
+      "Show Login Credentials, type `cat ~/valkey.creds` in the LXC console",
+      "Alpines Valkey package is compiled without TLS support. For TLS, use the Debian-based valkey script instead."
     ],
     "type": "ct"
   },
